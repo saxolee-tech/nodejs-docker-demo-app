@@ -3,22 +3,22 @@ pipeline {
     
     stages {
         stage("init") {
-            steps {
+            step {
                 echo ‘checking out the application….’
             }
         }
         stage("build") {
-            steps {
+            step {
                 echo ‘building the application….’
             }
         }
         stage("test") {
-            steps {
+            step {
                 echo ‘testing the application….’
             }
         }
         stage("deploy") {
-            steps {
+            step {
                 echo ‘deploying the application….’
             }
         }
